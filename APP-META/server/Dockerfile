@@ -4,7 +4,7 @@ WORKDIR /workspace
 
 ADD . /workspace
 
-WORKDIR /workspace/boost.front
+WORKDIR /root/workspace/alibabacloud-compute-nest-saas-boost/boost.front
 
 RUN npm install -g npm@10.2.4
 
