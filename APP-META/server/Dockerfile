@@ -1,8 +1,8 @@
 FROM node:latest AS frontend-builder
 
-WORKDIR /workspace
+WORKDIR /root/workspace
 
-ADD . /workspace
+ADD . /root/workspace
 
 WORKDIR /root/workspace/alibabacloud-compute-nest-saas-boost/boost.front
 
